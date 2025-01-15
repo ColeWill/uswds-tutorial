@@ -21,6 +21,7 @@ i.e.
 */
 
 @use "uswds-core" as *;
+@forward "../assets/css/styles.scss";
 :root {
    --blue-2: #{color("blue-warm-20v")};
    --blue-3: #{color("blue-warm-30v")};
